@@ -68,7 +68,7 @@ print(response.choices[0].message.content)
 
 ## 教程资源
 
-- [国内调用 Claude API 完整教程 2026](https://llmex.ai/docs/claude-api-china-2026) — 无需翻墙，5 分钟上手
+- [国内调用 Claude API 完整教程 2026](https://juejin.cn/spost/7642685465347768371) — 无需翻墙，5 分钟上手
 - [OpenAI SDK 接入多模型实战](https://llmex.ai/docs/openai-sdk-multimodel) — Python / Node.js 示例
 - [Claude Code 国内配置指南 2026](https://llmex.ai/docs/claude-code-china) — 终端 AI 编程助手配置
 
