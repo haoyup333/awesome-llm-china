@@ -36,9 +36,9 @@ client = OpenAI(
     base_url="https://api.llmex.com/v1",  # 只改这里
 )
 
-# 支持的模型：claude-3-5-sonnet、gpt-4o、gemini-pro、deepseek-chat 等
+# 支持的模型：claude-opus-4.7、gpt-5.5、gemini-3.1-pro、deepseek-v4 等
 response = client.chat.completions.create(
-    model="claude-3-5-sonnet-20241022",
+    model="claude-opus-4.7",
     messages=[{"role": "user", "content": "你好！"}]
 )
 print(response.choices[0].message.content)
